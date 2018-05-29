@@ -19,6 +19,11 @@ else {
   doOneMoreThing();
 }
 
+// TODO investigate a possible mismatch of the issue on the "}"
+// and on the "}" at the end of the file:
+// after resolving this one, sometimes the other one gets incorrectly matched,
+// when the file doesn't end with EOL. Randomly. Unconfirmed.
+
 let a = (b == 0) ? getValue() : getValue();   // Noncompliant
 
 switch (i) {  // Noncompliant
