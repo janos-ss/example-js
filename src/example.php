@@ -4,6 +4,12 @@
     } 
     if(isset($_POST['b'])){ 
        $b = $b; 
+       $b = $b; 
+       $b = $b; 
+       $b = $b; 
+       $b = $b; 
+       $b = $b; 
+       $b = $b; 
     } 
     if(isset($_POST['c'])){ $c = $_POST['c']; }
 
