@@ -2,6 +2,9 @@
     if(isset($_POST['a'])){ 
        $a = $_POST['a']; 
     } 
+    if(isset($_POST['a'])){ 
+       $a = $_POST['a']; 
+    } 
     if(isset($_POST['b'])){ 
        $b = $b; 
        $b = $b; 
